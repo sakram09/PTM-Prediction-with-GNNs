@@ -1,0 +1,34 @@
+TAU PTM VALIDATION TIMELINE
+========================================
+
+WEEK 1:
+  - Order primers & synthesize
+  - Site-directed mutagenesis
+
+WEEK 2:
+  - Transform into XL10-Gold
+  - Miniprep & sequence verify
+
+WEEK 3:
+  - Transform into BL21(DE3)
+  - Small-scale expression test
+
+WEEK 4:
+  - Large-scale expression (1L)
+  - Ni-NTA purification
+
+WEEK 5:
+  - Buffer exchange & quantification
+  - Triton X-100 solubility assay
+
+WEEK 6:
+  - Western blot quantification
+  - Microtubule co-sedimentation
+  - Primary neuron toxicity
+
+WEEK 7:
+  - Data analysis & statistics
+
+WEEK 8:
+  - Manuscript drafting
+

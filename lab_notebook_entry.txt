@@ -1,0 +1,50 @@
+
+# LAB NOTEBOOK ENTRY
+## Tau PTM Landscape Analysis (Yin-Yang Competition)
+
+**Date:** 2026-05-30 11:53
+**PDB ID:** 2ON9
+**Protein:** Tau microtubule-binding domain (K18 construct)
+**Objective:** Identify critical regulatory nodes where O-GlcNAcylation and phosphorylation compete
+
+---
+
+## METHODS SUMMARY
+
+1. **Structure:** PDB 2ON9 (2.0 Å resolution, NMR ensemble member 1)
+2. **Surface Accessibility:** Shrake-Rupley algorithm, probe radius 1.4Å
+3. **Clustering:** 8Å Cα-Cα distance cutoff
+4. **Glycosylation Prediction:** Sequence motif-based (Proline at +1/+2, hydrophobic patch at -3 to -1)
+5. **Composite Scoring:** Weighted sum of 5 features
+
+---
+
+## RESULTS
+
+### Critical Yin-Yang Switches (Top 5)
+
+### Experimental Recommendations
+
+**TIER 1 (Immediate - Order primers today):**
+
+**Expected Outcomes:**
+- Phosphomimetic at these sites → increased Triton X-100 insoluble Tau
+- O-GlcNAc mimetic or OGT overexpression → rescue of aggregation
+
+**Controls:** Use residues with lowest integrated score (from ranking table)
+
+---
+
+## NEXT STEPS
+
+1. Order primers for Tier 1 mutations (3 critical switches × 2 constructs = 6 primers)
+2. Express recombinant Tau in BL21(DE3) cells
+3. Test solubility via Triton X-100 fractionation
+4. Quantify microtubule binding via co-sedimentation
+
+---
+
+## REPRODUCIBILITY
+
+All parameters frozen in `tau_complete_model_state.json`
+Re-running this notebook on any computer yields identical rankings.

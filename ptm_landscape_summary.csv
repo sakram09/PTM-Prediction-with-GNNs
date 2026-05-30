@@ -1,0 +1,4 @@
+,risk_score,risk_score,risk_score,glycosylation_score,glycosylation_score,glycosylation_score,neighbors_8A,relative_asa
+,mean,std,max,mean,std,max,mean,mean
+yin_yang_class,,,,,,,,
+low_competition,0.0,0.0,0.0,50.0,0.0,50,0.0,0.0
